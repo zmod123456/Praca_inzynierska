@@ -11,8 +11,10 @@ st.set_page_config(page_title="Prognoza PM2.5", page_icon="🌫️", layout="wid
 st.title("Prognoza jakości powietrza (PM2.5) dla miasta Poznania")
 st.caption("Prognoza jest wykonywana rekurencyjnie, dlatego przewidywane wartości mogą różnić się od rzeczywistych pomiarów.")
 
-STACJA_GIOS_SENSOR_ID = 3497   
-LAT, LON = 52.4064, 16.9252    
+STACJA_GIOS_SENSOR_ID = 26997
+
+LAT = 52.390879
+LON = 16.998053
 
 
 import os
